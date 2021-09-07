@@ -24,6 +24,7 @@ function categ(){
      divEl.appendChild(textEl);
      divEl.appendChild(spanEl)
 }
+
 function poisk(){
     if(ulEl[0].style.display == 'block'){
         ulEl[0].style.display = 'none' 
@@ -32,11 +33,6 @@ function poisk(){
         ulEl[0].style.display = 'block'
     }
 }
-
-// console.log(a() + '$')
-
-// a() == 'netto'
-
 
 
 
